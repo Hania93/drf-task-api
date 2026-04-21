@@ -1,0 +1,55 @@
+
+# -------------------------
+# ENV FILE (SECRETS)
+# -------------------------
+.env
+
+# -------------------------
+# VIRTUAL ENV
+# -------------------------
+venv/
+env/
+.venv/
+
+# -------------------------
+# PYTHON CACHE
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -------------------------
+# DJANGO
+# -------------------------
+db.sqlite3
+*.log
+
+# migrations (opcjonalnie tylko jeśli chcesz)
+# * można zostawić migrations w repo (zalecane)
+# __pycache__/migrations/
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# SYSTEM FILES
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# STATIC / MEDIA (jeśli używasz)
+# -------------------------
+media/
+staticfiles/
+
+# -------------------------
+# TEST / COVERAGE
+# -------------------------
+.coverage
+htmlcov/
+.pytest_cache/
